@@ -93,6 +93,7 @@ li {
 }
 
 #container {
+  width: 700px;
   background-color: rgb(54, 121, 147);
   padding: 20px;
   border-radius: 4px;
@@ -101,6 +102,7 @@ li {
 }
 
 .card {
+  width: 700px;
   background-color: rgba(184, 195, 198, .6);
   padding: 20px;
   border-radius: 4px;
@@ -109,6 +111,7 @@ li {
 }
 
 .card-contacts {
+  width: 700px;
   background-color: rgba(54, 121, 147, .7);
   padding: 20px;
   border-radius: 4px;
