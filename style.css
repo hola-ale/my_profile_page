@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@300;800&display=swap');
+
+@media (max-width: 960px) {
+  #container, .card, .card-contacts {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  #container, .card, .card-contacts {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  #container, .card, .card-contacts {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: rgb(181, 232, 252);
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  line-height: 20px
+}
+
+.img-circle {
+  width: 100px;
+  border-radius: 50%
+}
+
+h1 {
+  color: rgb(94, 27, 102);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 20px
+}
+
+h2 {
+  color: rgb(94, 27, 102);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 20px
+}
+
+p {
+  color: rgb(94, 27, 102);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+  line-height: 18px
+}
+
+.btn {
+  background-color: rgb(224, 243, 249);
+  color: rgb(255, 147, 76);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.btn:hover {
+  background-color: rgb(224, 243, 249);
+  color: rgb(237, 109, 30);
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5%
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.card-contacts a {
+  background-color: rgba(54, 121, 147, .7);
+  color: rgb(255, 147, 76);
+  text-decoration: none;
+  padding: 15px 15px;
+  border-radius: 50%;
+}
+
+.card-contacts a:hover {
+  background-color: rgb(224, 243, 249);
+  color: rgb(237, 109, 30);
+  text-decoration: none;
+  padding: 15px 15px;
+  border-radius: 50%;
+}
+
+#container {
+  background-color: rgb(54, 121, 147);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.card {
+  background-color: rgba(184, 195, 198, .6);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.card-contacts {
+  background-color: rgba(54, 121, 147, .7);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px auto;
+  text-align: center;
+}
